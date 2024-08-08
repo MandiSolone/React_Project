@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <div>
-      <h1>Movie Watchlist</h1>
+      <h1>TEST CHANGE Movie Watchlist</h1>
       <form action="/submit-form">
         <label htmlFor="movie-want-to-watch">Movie you would like to watch:</label>
         <input
