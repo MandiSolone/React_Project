@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+.navBar{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.wishList {
+  color: rgb(146, 146, 234);
+}
+
+ul{
+  list-style: none;
+}
+
+.ghibliMovies{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.filmLi {
+    flex-grow: 4;
+    gap: 10px;
+    border: solid rgb(109, 109, 55); 
+    font-size: 16px;
+}

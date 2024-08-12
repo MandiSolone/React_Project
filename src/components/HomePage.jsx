@@ -13,7 +13,7 @@ export default function HomePage() {
         setMovieList([...movieList, movieTitleEntered]);
         setMovieTitleEntered('');
       }} >
-        <label htmlFor="movie-want-to-watch">Movie you would like to watch:</label>
+        <label htmlFor="movie-want-to-watch">Movie(s) you'd like to watch: </label>
         <input
           type="text"
           id="movie-name"
@@ -22,10 +22,10 @@ export default function HomePage() {
           onChange={(event) => setMovieTitleEntered(event.target.value)}
         />
         <button className="submit" type="button">
-          Add Movie to Watch List
+          Add To List
         </button>
       </form>
-      <ul>
+      <ul className="wishList">
         <li>It Ends With Us</li>
         <li>Despicable Me 4</li>
         <li>Twister</li>
