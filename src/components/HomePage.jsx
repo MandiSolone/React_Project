@@ -13,7 +13,7 @@ export default function HomePage() {
         setMovieList([...movieList, movieTitleEntered]);
         setMovieTitleEntered('');
       }} >
-        <label htmlFor="movie-want-to-watch">Movie(s) you'd like to watch: </label>
+        <label htmlFor="movie-want-to-watch">Movie(s) you would like to watch: </label>
         <input
           type="text"
           id="movie-name"
