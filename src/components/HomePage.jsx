@@ -4,7 +4,10 @@ export default function HomePage() {
   
     const [movieTitleEntered, setMovieTitleEntered] = useState(""); 
     const [movieList, setMovieList] = useState([]); 
-   
+
+    console.log("A movieTitleEntered", movieTitleEntered);
+    console.log("B movieList", movieList);
+
     return ( 
     <div>
       <h1>Movie Watchlist</h1>
@@ -21,11 +24,10 @@ export default function HomePage() {
           value = {movieTitleEntered}
           onChange={(event) => setMovieTitleEntered(event.target.value)}
         />
-        <button className="submit" type="button">
+        <button className="submit" type="submit">
           Add To List
         </button>
       </form>
-
 
       <ul className="wishList">
         <li>It Ends With Us</li>
